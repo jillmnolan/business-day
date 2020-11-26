@@ -35,6 +35,6 @@ Moment.js objects are returned by the supervening methods, excluding both ```.is
 | ```.nextBusinessDay()``` | ```Moment[]``` | This retrieves the next business day as an ```object``` |
 | ```.prevBusinessDay()``` | ```Moment[]``` | This retrieves the previous business day as an ``object`` |
 | ```.monthBusinessDays()``` | ```Moment[]``` | This retrieves an ```array``` of business days within the month as respective ```object```. |
-| ```.monthNaturalDays()``` | ```Moment[]``` | This is akin to ```.monthBusinessDays()```, albeit it also includes weekends. |
+| ```.monthNaturalDays()``` | ```Moment[]``` | This is akin to ```.monthBusinessDays()```, albeit it includes weekends. |
 | ```.monthBusinessWeeks()``` | ```Moment[]``` | This retrieves an ```array``` of arrays, albeit such are manifesting business weeks, whereby an ```array``` (in this case, week) have its own predefined business days and ```objects``` represents days. |
-| ```.monthNaturalWeeks()``` | ```Moment[]``` | This is akin to ```.monthBusinessWeeks()```, albeit it also includes weekends. |
+| ```.monthNaturalWeeks()``` | ```Moment[]``` | This is akin to ```.monthBusinessWeeks()```, albeit it includes weekends. |
