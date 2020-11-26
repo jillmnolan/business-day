@@ -33,20 +33,25 @@ moment('26-11-2020', 'DD-MM-YYYY').isBusinessDay()
 
 let diff = moment('15-11-2020', 'MM-DD-YYYY').businessDiff(moment('08-11-2020','MM-DD-YYYY'));
 
-// Given that '30-11-2020' ('DD-MM-YYYY') is Monday, this code snippet outputs Mon Nov 16 2020 00:00:00 GMT-0600 (CST).
+// Given that '30-11-2020' ('DD-MM-YYYY') is Monday, this code snippet outputs
+// Mon Nov 16 2020 00:00:00 GMT-0600 (CST).
 
-moment('30-11-2020', 'DD-MM-YYYY').businessAdd(3)._d 
+moment('30-11-2020', 'DD-MM-YYYY').businessAdd(3)._d
 
-// Given that '3-12-2020' ('DD-MM-YYYY') is Wednesday, this code snippet outputs Mon Nov 30 2020 00:00:00 GMT-0600 (CST).
+// Given that '3-12-2020' ('DD-MM-YYYY') is Wednesday, this code snippet outputs
+// Mon Nov 30 2020 00:00:00 GMT-0600 (CST).
 
 moment('3-12-2020', 'DD-MM-YYYY').businessSubtract(3)._d
 
-// This code snippet outputs the next business day for '30-11-2020' as Tue Dec 01 2020 00:00:00 GMT-0600 (CST)
+// This code snippet outputs the next business day for '30-11-2020' as
+// Tue Dec 01 2020 00:00:00 GMT-0600 (CST)
 
-moment('30-11-2020', 'DD-MM-YYYY').nextBusinessDay()._d 
+moment('30-11-2020', 'DD-MM-YYYY').nextBusinessDay()._d
 
-// This code snippet outputs the next business day for 25-11-2020 as Mon Nov 30 2020 00:00:00 GMT-0600 (CST)
-moment('02-02-2015', 'DD-MM-YYYY').nextBusinessDay()._d 
+// This code snippet outputs the next business day for 25-11-2020 as
+// Mon Nov 30 2020 00:00:00 GMT-0600 (CST)
+
+moment('02-02-2015', 'DD-MM-YYYY').nextBusinessDay()._d
 
 ```
 
