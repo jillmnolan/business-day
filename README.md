@@ -8,11 +8,11 @@ A fork of moment-business-days whose premise is to allow the user to only utiliz
 
 2. You will need to run this command at the root of your project:
 
-```npm i business-days```
+    ```npm i business-days```
 
-1. To conduct a test, you will need to run this command at the root of your project:
+3. To conduct a test, you will need to run this command at the root of your project:
 
-```npm test```
+    ```npm test```
 
 ## Code Snippet
 
@@ -22,9 +22,9 @@ const moment = require("business-days");
 
 ## Comparing and Contrasting the library Moment.js, the peer dependency
 
-The objects returned by methods are Moment.js objects, excluding both ```.isBusinessDay()``` and ```.businessDiff()```.
+Moment.js objects are returned by the supervening methods, excluding both ```.isBusinessDay()``` and ```.businessDiff()```.
 
-| **Method*** | **Type** | **Description** |
+| **Method** | **Type** | **Description** |
 | ------ | --------- | ----------- |
 | ```.isHoliday()``` | ```boolean``` | This verifies that the date is a specified holiday, returning either ```true``` or ```false``` |
 | ```.isBusinessDay()``` | ```boolean``` | This verifies that the date is a business day, returning either ```true``` or ```false``` |
