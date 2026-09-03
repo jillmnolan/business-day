@@ -20,7 +20,7 @@
     "typescript": "^3.9.7"
   },
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^5.2.1",
     "install-peerdeps": "^3.0.3",
     "moment-business-days": "^1.2.0"
   },
